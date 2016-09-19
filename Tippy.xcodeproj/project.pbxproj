@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2973185C1D8FB99700C435B3 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2973185B1D8FB99700C435B3 /* SettingsViewController.swift */; };
 		29AD236E1D866485009AEAF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AD236D1D866485009AEAF4 /* AppDelegate.swift */; };
 		29AD23701D866485009AEAF4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AD236F1D866485009AEAF4 /* ViewController.swift */; };
 		29AD23731D866485009AEAF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29AD23711D866485009AEAF4 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2973185B1D8FB99700C435B3 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		29AD236A1D866485009AEAF4 /* Tippy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tippy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29AD236D1D866485009AEAF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		29AD236F1D866485009AEAF4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				29AD23741D866485009AEAF4 /* Assets.xcassets */,
 				29AD23761D866485009AEAF4 /* LaunchScreen.storyboard */,
 				29AD23791D866485009AEAF4 /* Info.plist */,
+				2973185B1D8FB99700C435B3 /* SettingsViewController.swift */,
 			);
 			path = Tippy;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			files = (
 				29AD23701D866485009AEAF4 /* ViewController.swift in Sources */,
 				29AD236E1D866485009AEAF4 /* AppDelegate.swift in Sources */,
+				2973185C1D8FB99700C435B3 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +486,7 @@
 				29AD23941D866485009AEAF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		29AD23951D866485009AEAF4 /* Build configuration list for PBXNativeTarget "TippyTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +495,7 @@
 				29AD23971D866485009AEAF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		29AD23981D866485009AEAF4 /* Build configuration list for PBXNativeTarget "TippyUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +504,7 @@
 				29AD239A1D866485009AEAF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
